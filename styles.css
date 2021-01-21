@@ -1,0 +1,93 @@
+.row-div {
+    padding: 50px; 
+    border: 1px dashed grey;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 150px;
+    padding: 150px;
+    background-color: aliceblue;
+    color: #040442;
+    height: 100vh;
+    text-align: left;
+}
+
+.col-here {
+    padding: 10px;
+}
+
+
+.grouped {
+    margin-top: 30px;    
+    padding-bottom: 30px;
+}
+
+legend {
+    font-size: larger;
+}
+
+.conv {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+    background-color: rgb(1, 46, 1);
+}
+
+.conversion {
+    margin-top: 20px;
+}
+
+.well-font {
+    font-size: large;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.tabs {
+    padding-bottom: 50px;
+}
+
+.tab {
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px #888888;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.tab:visited {
+    outline: none;
+}
+
+#sticker {
+    background-color: #030342;
+    color: white;
+}
+
+#feet {
+    background-color: #f0bd60;
+}

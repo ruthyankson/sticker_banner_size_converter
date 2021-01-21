@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="text-align: center;">Size Converter</h1>        
+           
+            <div class="row-div">
+                <div class="tabs">
+                    <div style="display: inline; margin-right: 200px">
+                        <a type="button" id="sticker" class="tab" onclick="sizeType(1)">Sticker</a>
+                        <a type="button" id="banner" class="tab" onclick="sizeType(2)">Banner</a>
+                    </div>
+                    <div style=" display: inline;">
+                        <a type="button" id="feet" class="tab" onclick="conversionType(1)">Feet</a>
+                        <a type="button" id="inch" class="tab" onclick="conversionType(2)">Inch</a>
+                    </div>
+                </div>
+
+                <div>                    
+                    <span class="col-here">
+                        <label for="size">Size</label>
+                    </span>
+                    <span class="input col-here">
+                        <input id="size" type="number" value=""/>
+                    </span>
+                    <span class="col-here">
+                        <label for="quantity">Quantity</label>
+                    </span>
+                    <span class="input col-here">
+                        <input id="quantity" type="number" value=""/>
+                    </span>              
+                    <div class="conversion">
+                        
+                        <span class="col-here">
+                            <button class="conv" onclick="convert()">Convert</button>
+                        </span>
+                        <span class="col-here well-font" id="output_one"> </span>
+                        
+                    </div>
+                </div>
+            </div>        
+      
+
+        <!-- <fieldset class="grouped">
+            <legend>Banners</legend>
+            <div class="row-div"></div>
+        </fieldset>
+         -->
+    </div>
+
+    <script src="converter.js"></script>
+</body>
+</html>

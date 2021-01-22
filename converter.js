@@ -15,7 +15,7 @@ function convert() {
         if(conversion_type == "feet") {
             result = _size * for_sticker * _quantity;
         }
-        else if(conversion_type == "inch") {
+        else if(conversion_type == "inches") {
             result = _size / for_inch * for_sticker * _quantity;
         }
     }
@@ -23,7 +23,7 @@ function convert() {
         if(conversion_type == "feet") {
             result = _size * for_banner * _quantity;
         }
-        else if(conversion_type == "inch") {
+        else if(conversion_type == "inches") {
             result = _size / for_inch * for_banner * _quantity;
         }        
     }
@@ -57,13 +57,13 @@ function sizeType(a) {
 function conversionType(b) {
     if(b == 1) {
         conversion_type = "feet";
-        document.getElementById("inch").style.backgroundColor = "#ffffff";
+        document.getElementById("inches").style.backgroundColor = "#ffffff";
         document.getElementById("feet").style.backgroundColor = "#f0bd60";
     }
     else {
-        conversion_type = "inch";
+        conversion_type = "inches";
         document.getElementById("feet").style.backgroundColor = "#ffffff";
-        document.getElementById("inch").style.backgroundColor = "#f0bd60";
+        document.getElementById("inches").style.backgroundColor = "#f0bd60";
     }
    
     return conversion_type;
